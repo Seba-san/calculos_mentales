@@ -34,6 +34,18 @@ El aula se divide en dos extremos:
 
 ### Evaluación
 Se tiene en cuenta el tiempo que se tarda en realizar el ejercicio y por otro lado la cantidad de respuestas incorrectas sobre el total. 
+
+---
+
+## 📸 Vista Previa del Material
+
+El sistema genera automáticamente tarjetas con un diseño optimizado para impresión y recorte. Las tarjetas del Lote B incluyen un área diferenciada para los datos del "sensor" simulado.
+
+| Lote A (Operación) | Lote B (Auditoría de Sensor) |
+| :---: | :---: |
+| ![Tarjeta Lote A](img/lote_a.png) | ![Tarjeta Lote B](img/lote_b.png) |
+
+
 ---
 
 ## 🛠️ Generación de Tarjetas
@@ -43,9 +55,8 @@ El material de juego es dinámico y se genera aleatoriamente mediante un script 
 Las operaciones incluyen notación científica, fracciones decimales, conversiones de unidades del SI y reglas de tres, utilizando valores reales de ingeniería (ej. voltajes, serie E12 de componentes, constantes físicas).
 
 ### Requisitos
-
-* **Python 3.x**
-* Una distribución de **LaTeX** instalada en el sistema que incluya `pdflatex` (por ejemplo, [TeX Live](https://tug.org/texlive/), [MiKTeX](https://miktex.org/) o [MacTeX](https://tug.org/mactex/)). Las dependencias de paquetes LaTeX son estándar (`amsmath`, `tikz`, `tcolorbox`, `geometry`).
+- **Python 3.x** (Sin dependencias externas).
+- **Distribución LaTeX** (pdflatex). El script utiliza los paquetes estándar `amsmath`, `tikz`, `tcolorbox` y `geometry` (incluidos en la mayoría de las instalaciones base).
 
 ### Instrucciones de uso
 
