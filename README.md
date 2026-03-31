@@ -79,7 +79,7 @@ Las operaciones incluyen notación científica, fracciones decimales, conversion
 
 Este proyecto se distribuye bajo la licencia **Apache License, Version 2.0**. 
 
-**Copyright 2024 Sebastian Sansoni**
+**Copyright 2026 Sebastian Sansoni**
 
 Puedes usar, modificar y distribuir este contenido libremente, siempre que mantengas el aviso de copyright. Para más detalles, consulta el archivo [LICENSE](LICENSE) o visita [apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
